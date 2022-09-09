@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "wd201-express-ded",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
