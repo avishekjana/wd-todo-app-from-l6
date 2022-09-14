@@ -57,4 +57,6 @@ app.delete('/todos/:id', function (request, response) {
   // response.send("Todo deleted successfully")
 })
 
-app.listen(3000)
+app.listen(3000, () => {
+  console.log("Started at port: ", 3000)
+})
